@@ -17,8 +17,8 @@ public class FileReader{
         }
     }
     public static void main(String[] args) throws IOException{
-        String path = "C:\\Vscode projects\\Java\\DSA\\filereader\\src\\main\\java\\filereader\\test.txt";
-        File f = new File(path);
+        String url = ""+"C:\\Vscode projects\\Java\\DSA\\filereader\\src\\main\\java\\filereader\\test.txt";
+        File f = new File(url);
         read(f);
         String str = ""+print;
         String[] words = str.split(" ");
